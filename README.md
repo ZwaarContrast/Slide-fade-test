@@ -3,6 +3,10 @@ Slide-fade-test
 
 Test if a image mask can be used for a fade effect in a slider.
 
+See the result here: http://zwaarcontrast.nl/fade/
+
+Thanks to Lorem pixel for the placeholder images: http://lorempixel.com/
+
 ===============
 For this example I used a CSS3 gradient for a mask, this can also be a png image.
 
