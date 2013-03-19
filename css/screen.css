@@ -1,4 +1,3 @@
-/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,81 +18,64 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, /Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 6, ../sass/screen.scss */
 body {
   font-family: 'Helvetica','arial',sans-serif;
   font-size: 16px; }
 
-/* line 10, ../sass/screen.scss */
 p {
   font-size: 1em;
   line-height: 1.6em; }
 
-/* line 14, ../sass/screen.scss */
 h1, h2, h3 {
   font-family: 'Abel', sans-serif; }
 
-/* line 17, ../sass/screen.scss */
 h1 {
   font-size: 2.5em; }
 
-/* line 20, ../sass/screen.scss */
 h2 {
   font-size: 2.4em; }
 
-/* line 25, ../sass/screen.scss */
 .header {
   width: 100%;
   padding: 20px 0px;
   border-bottom: 1px solid black; }
-  /* line 29, ../sass/screen.scss */
   .header h1, .header p {
     width: 100%;
     text-align: center;
     margin-bottom: 10px; }
 
-/* line 35, ../sass/screen.scss */
 .content {
   position: relative;
   width: 100%;
   height: 600px;
   border-bottom: 1px black solid; }
-  /* line 40, ../sass/screen.scss */
   .content.blue {
     background-color: #87e0fd;
     *zoom: 1;
@@ -103,7 +85,6 @@ h2 {
     background-image: -moz-linear-gradient(left top, #87e0fd 0%, #53cbf1 30%, #064edd 100%);
     background-image: -o-linear-gradient(left top, #87e0fd 0%, #53cbf1 30%, #064edd 100%);
     background-image: linear-gradient(left top, #87e0fd 0%, #53cbf1 30%, #064edd 100%); }
-  /* line 45, ../sass/screen.scss */
   .content.red {
     background-color: #660203;
     *zoom: 1;
@@ -113,7 +94,6 @@ h2 {
     background-image: -moz-radial-gradient(center, ellipse cover, #660203 0%, #ff0000 100%);
     background-image: -o-radial-gradient(center, ellipse cover, #660203 0%, #ff0000 100%);
     background-image: radial-gradient(center, ellipse cover, #660203 0%, #ff0000 100%); }
-  /* line 50, ../sass/screen.scss */
   .content.green {
     background-color: #b4ddb4;
     *zoom: 1;
@@ -123,14 +103,11 @@ h2 {
     background-image: -moz-linear-gradient(left, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
     background-image: -o-linear-gradient(left, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
     background-image: linear-gradient(left, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); }
-  /* line 55, ../sass/screen.scss */
   .content.white {
     background-color: white; }
-  /* line 58, ../sass/screen.scss */
   .content.image {
     background: url("http://lorempixel.com/1280/800/abstract/") no-repeat top left;
     background-size: cover; }
-  /* line 62, ../sass/screen.scss */
   .content h2 {
     text-align: center;
     padding: 10px 0px; }
@@ -138,27 +115,22 @@ h2 {
 /*
  *  Styling of the background switcher
  */
-/* line 5, /Users/roy/Development/Experiments/fade/sass/modules/_switcher.scss */
 .backgroundSwitcher {
   width: 200px;
   position: absolute;
   top: 50%;
   right: 5%;
   margin-top: -130px; }
-  /* line 11, /Users/roy/Development/Experiments/fade/sass/modules/_switcher.scss */
   .backgroundSwitcher li {
     padding: 5px 0px;
     width: 180px;
     margin-bottom: 20px;
     border: solid 3px black;
     background-color: white; }
-    /* line 17, /Users/roy/Development/Experiments/fade/sass/modules/_switcher.scss */
     .backgroundSwitcher li:hover {
       background-color: black; }
-      /* line 19, /Users/roy/Development/Experiments/fade/sass/modules/_switcher.scss */
       .backgroundSwitcher li:hover a {
         color: white; }
-    /* line 23, /Users/roy/Development/Experiments/fade/sass/modules/_switcher.scss */
     .backgroundSwitcher li a {
       width: 100%;
       display: block;
@@ -169,7 +141,6 @@ h2 {
 /*
  *  Styling of the slider
  */
-/* line 5, /Users/roy/Development/Experiments/fade/sass/modules/_slider.scss */
 .slider {
   width: 50%;
   position: absolute;
@@ -179,15 +150,12 @@ h2 {
   overflow: hidden;
   cursor: pointer;
   -webkit-mask-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, black 10%, black 90%, rgba(0, 0, 0, 0) 100%); }
-  /* line 14, /Users/roy/Development/Experiments/fade/sass/modules/_slider.scss */
   .slider .slides {
     width: 2300px;
     height: 250px; }
-    /* line 17, /Users/roy/Development/Experiments/fade/sass/modules/_slider.scss */
     .slider .slides .slide {
       margin: 25px;
       float: left; }
-      /* line 20, /Users/roy/Development/Experiments/fade/sass/modules/_slider.scss */
       .slider .slides .slide p {
         width: 200px;
         text-align: center; }
